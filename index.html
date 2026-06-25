@@ -77,6 +77,12 @@
   .dl-hero:hover{background:var(--indigo-btn-h);opacity:1}
   .dl-hero svg{width:14px;height:14px;fill:currentColor;flex-shrink:0}
   .avatar{width:118px;height:118px;border-radius:50%;border:2px solid var(--border-lg);background:var(--raised);display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk',sans-serif;font-size:33px;font-weight:700;color:var(--indigo-lt);letter-spacing:-.02em;flex-shrink:0}
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
   /* METRICS */
   .metrics-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1px;background:var(--border);border:1px solid var(--border);border-radius:16px;overflow:hidden}
@@ -216,13 +222,13 @@
             <svg viewBox="0 0 24 24"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 010 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
             Email me
           </a>
-          <a class="dl-hero" href="./eric-ijeoma-resume.pdf" download="Eric_Ijeoma_Resume.pdf">
+          <a class="dl-hero" href="assets/eric_ijeoma_resume.pdf" download="Eric_Ijeoma_Resume.pdf">
             <svg viewBox="0 0 24 24"><path d="M12 16l-5-5h3V4h4v7h3l-5 5zm-7 4h14v-2H5v2z"/></svg>
             Download CV
           </a>
         </div>
       </div>
-      <div class="avatar">EI</div>
+      <div class="avatar"><img src="assets/profile_picture.jpg" alt="Eric Ijeoma"></div>
     </div>
   </section>
 
